@@ -1,0 +1,2 @@
+(this.webpackJsonp=this.webpackJsonp||[]).push([[147],{841:function(n,t,s){"use strict";s.r(t);var e=s(0),o=s.n(e);document.addEventListener("DOMContentLoaded",function(){return new function(){o()(".js-fork-thumbnail").on("click",function(){return!o()(this).hasClass("disabled")&&o()(".js-fork-content").toggleClass("hidden")})}})},982:function(n,t,s){s(31),s(57),n.exports=s(841)}},[[982,0,1,2]]]);
+//# sourceMappingURL=pages.projects.forks.new.73b450ee.chunk.js.map

@@ -1,0 +1,2 @@
+(this.webpackJsonp=this.webpackJsonp||[]).push([[190],{1082:function(t,n,e){e(31),t.exports=e(848)},848:function(t,n,e){"use strict";e.r(n);var a=e(0),s=e.n(a),o=e(21);document.addEventListener("DOMContentLoaded",function(){var t=Object(o.b)("path")[0];s()(".js-path-name").val(t)})}},[[1082,0,1]]]);
+//# sourceMappingURL=pages.import.gitlab_projects.new.ba69c1a4.chunk.js.map

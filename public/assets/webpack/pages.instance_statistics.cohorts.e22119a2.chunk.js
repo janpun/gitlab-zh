@@ -1,0 +1,2 @@
+(this.webpackJsonp=this.webpackJsonp||[]).push([[189],{1081:function(t,e,n){n(31),t.exports=n(849)},849:function(t,e,n){"use strict";n.r(e);var a=n(5),c=n(1),o=n(7);document.addEventListener("DOMContentLoaded",function(){var t=document.querySelector(".usage-data");a.a.get(t.dataset.endpoint,{responseType:"text"}).then(function(e){var n=e.data;t.innerHTML=n}).catch(function(){return Object(o.a)(Object(c.a)("Error fetching usage ping data."))})})}},[[1081,0,1]]]);
+//# sourceMappingURL=pages.instance_statistics.cohorts.e22119a2.chunk.js.map

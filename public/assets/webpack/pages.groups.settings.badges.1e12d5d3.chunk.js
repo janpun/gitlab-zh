@@ -1,0 +1,2 @@
+(this.webpackJsonp=this.webpackJsonp||[]).push([[198],{1225:function(t,e,n){"use strict";n.r(e);var s=n(8),a=n(72),o=n(302),c=n(508);s.default.use(a.a),document.addEventListener("DOMContentLoaded",function(){Object(c.a)(o.a)})},1226:function(t,e,n){n(31),t.exports=n(1225)}},[[1226,0,1,17]]]);
+//# sourceMappingURL=pages.groups.settings.badges.1e12d5d3.chunk.js.map
