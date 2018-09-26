@@ -4248,7 +4248,7 @@ msgid "Project export started. A download link will be sent by email."
 msgstr ""
 
 msgid "Project name"
-msgstr ""
+msgstr "项目名称"
 
 msgid "ProjectActivityRSS|Subscribe"
 msgstr ""
@@ -4601,13 +4601,13 @@ msgid "SSL Verification"
 msgstr ""
 
 msgid "Save"
-msgstr ""
+msgstr "保存"
 
 msgid "Save application"
-msgstr ""
+msgstr "保存应用"
 
 msgid "Save changes"
-msgstr ""
+msgstr "保存修改"
 
 msgid "Save pipeline schedule"
 msgstr ""
@@ -4634,40 +4634,40 @@ msgid "Scroll down to <strong>Google Code Project Hosting</strong> and enable th
 msgstr ""
 
 msgid "Scroll to bottom"
-msgstr ""
+msgstr "滚动到底部"
 
 msgid "Scroll to top"
-msgstr ""
+msgstr "滚动到顶部"
 
 msgid "Search"
-msgstr ""
+msgstr "搜索"
 
 msgid "Search branches"
-msgstr ""
+msgstr "搜索分支"
 
 msgid "Search branches and tags"
-msgstr ""
+msgstr "搜索分支/标签"
 
 msgid "Search files"
-msgstr ""
+msgstr "搜索文件"
 
 msgid "Search for projects, issues, etc."
-msgstr ""
+msgstr "搜索项目/议题"
 
 msgid "Search merge requests"
-msgstr ""
+msgstr "搜索合并请求"
 
 msgid "Search milestones"
-msgstr ""
+msgstr "搜索里程碑"
 
 msgid "Search or jump to…"
-msgstr ""
+msgstr "搜索/跳转"
 
 msgid "Search project"
-msgstr ""
+msgstr "搜索项目"
 
 msgid "Search users"
-msgstr ""
+msgstr "搜索用户"
 
 msgid "SearchAutocomplete|All GitLab"
 msgstr ""

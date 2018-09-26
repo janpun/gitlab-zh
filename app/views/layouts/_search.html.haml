@@ -11,14 +11,14 @@
     .search-input-container
       .search-input-wrap
         .dropdown{ data: { url: search_autocomplete_path } }
-          = search_field_tag 'search', nil, placeholder: _('Search or jump to…'),
+          = search_field_tag 'search', nil, placeholder: _('搜索/跳转'),
                                             class: 'search-input dropdown-menu-toggle no-outline js-search-dashboard-options',
                                             spellcheck: false,
                                             tabindex: '1',
                                             autocomplete: 'off',
                                             data: { issues_path: issues_dashboard_path,
                                               mr_path: merge_requests_dashboard_path },
-                                            aria: { label: _('Search or jump to…') }
+                                            aria: { label: _('搜索/跳转') }
           %button.hidden.js-dropdown-search-toggle{ type: 'button', data: { toggle: 'dropdown' } }
           .dropdown-menu.dropdown-select
             = dropdown_content do

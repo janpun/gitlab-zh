@@ -129,14 +129,14 @@ export default {
             class="btn btn-success float-left"
             type="submit"
           >
-            Submit issue
+            提交工单
           </button>
           <button
             class="btn btn-default float-right"
             type="button"
             @click="cancel"
           >
-            Cancel
+            取消
           </button>
         </div>
       </form>

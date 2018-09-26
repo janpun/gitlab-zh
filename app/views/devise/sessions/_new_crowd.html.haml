@@ -1,6 +1,6 @@
 = form_tag(omniauth_authorize_path(:user, :crowd), id: 'new_crowd_user', class: 'gl-show-field-errors') do
   .form-group
-    = label_tag :username, 'Username or email'
+    = label_tag :username, '用户名/邮箱'
     = text_field_tag :username, nil, { class: "form-control top", title: "This field is required", autofocus: "autofocus", required: true }
   .form-group
     = label_tag :password

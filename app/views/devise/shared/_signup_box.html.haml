@@ -4,7 +4,7 @@
       .devise-errors
         = devise_error_messages!
       .form-group
-        = f.label :name, 'Full name'
+        = f.label :name, '姓名'
         = f.text_field :name, class: "form-control top", required: true, title: "This field is required."
       .username.form-group
         = f.label :username
@@ -14,14 +14,14 @@
         %p.validation-pending.hide Checking username availability...
       .form-group
         = f.label :email
-        = f.email_field :email, class: "form-control middle", required: true, title: "Please provide a valid email address."
+        = f.email_field :email, class: "form-control middle", required: true, title: "请输入正确的电子邮箱"
       .form-group
         = f.label :email_confirmation
-        = f.email_field :email_confirmation, class: "form-control middle", required: true, title: "Please retype the email address."
+        = f.email_field :email_confirmation, class: "form-control middle", required: true, title: "请再输入一次电子邮箱"
       .form-group.append-bottom-20#password-strength
         = f.label :password
-        = f.password_field :password, class: "form-control bottom", required: true, pattern: ".{#{@minimum_password_length},}", title: "Minimum length is #{@minimum_password_length} characters."
-        %p.gl-field-hint Minimum length is #{@minimum_password_length} characters
+        = f.password_field :password, class: "form-control bottom", required: true, pattern: ".{#{@minimum_password_length},}", title: "密码长度不得小于 #{@minimum_password_length}个字符"
+        %p.gl-field-hint 密码长度不得小于#{@minimum_password_length}个字符
       - if Gitlab::CurrentSettings.current_application_settings.enforce_terms?
         .form-group
           = check_box_tag :terms_opt_in, '1', false, required: true
@@ -33,9 +33,9 @@
       - if Gitlab::Recaptcha.enabled?
         = recaptcha_tags
       .submit-container
-        = f.submit "Register", class: "btn-register btn"
+        = f.submit "注册", class: "btn-register btn"
 .clearfix.submit-container
   %p
-    %span.light Didn't receive a confirmation email?
+    %span.light 没收到验证邮件?
     = succeed '.' do
-      = link_to "Request a new one", new_confirmation_path(:user)
+      = link_to "重新获取", new_confirmation_path(:user)

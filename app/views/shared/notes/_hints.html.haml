@@ -3,12 +3,12 @@
   .toolbar-text
     = link_to 'Markdown', help_page_path('user/markdown'), target: '_blank', tabindex: -1
     - if supports_quick_actions
-      and
-      = link_to 'quick actions', help_page_path('user/project/quick_actions'), target: '_blank', tabindex: -1
-      are
+      和
+      = link_to '快捷符号', help_page_path('user/project/quick_actions'), target: '_blank', tabindex: -1
+      是
     - else
-      is
-    supported
+      是
+    支持的
 
   %span.uploading-container
     %span.uploading-progress-container.hide
@@ -30,6 +30,6 @@
 
     %button.markdown-selector.button-attach-file{ type: 'button', tabindex: '-1' }
       = icon('file-image-o', class: 'toolbar-button-icon')
-      Attach a file
+      上传附件
 
     %button.btn.btn-default.btn-sm.hide.button-cancel-uploading-files{ type: 'button' } Cancel

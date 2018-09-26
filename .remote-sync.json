@@ -1,0 +1,19 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "121.196.214.116",
+  "port": "22",
+  "target": "/opt/gitlab/embedded/service/gitlab-rails/",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "root",
+  "password": "5273847Qyd",
+  "watch": [],
+  "transport": "scp"
+}

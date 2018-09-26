@@ -176,9 +176,9 @@
     .top-area
       %ul.nav-links.nav.nav-tabs
         %li.active
-          %a Open
+          %a 打开
         %li
-          %a Closed
+          %a 关闭
       .nav-controls
         = text_field_tag 'sample', nil, class: 'form-control'
         .dropdown
@@ -189,7 +189,7 @@
             %li
               = link_to 'Sort by date', '#'
 
-        = link_to 'New issue', '#', class: 'btn btn-new btn-inverted'
+        = link_to '新建工单', '#', class: 'btn btn-new btn-inverted'
 
   .lead
     Only nav links without button and search
