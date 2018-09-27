@@ -173,7 +173,7 @@ module Banzai
         end
 
         content = link_content || User.reference_prefix + 'all'
-        link_tag(url, data, content, 'All Project and Group Members')
+        link_tag(url, data, content, '所有项目和组成员')
       end
     end
   end

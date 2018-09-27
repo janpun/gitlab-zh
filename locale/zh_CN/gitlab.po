@@ -304,10 +304,10 @@ msgid "Active"
 msgstr "启用"
 
 msgid "Active Sessions"
-msgstr "活动会话"
+msgstr "动态会话"
 
 msgid "Activity"
-msgstr "活动"
+msgstr "动态"
 
 msgid "Add"
 msgstr "添加"
@@ -562,7 +562,7 @@ msgid "An error occurred while rendering preview broadcast message"
 msgstr "渲染广播消息时发生错误"
 
 msgid "An error occurred while retrieving calendar activity"
-msgstr "获取日历活动时发生错误"
+msgstr "获取日历动态时发生错误"
 
 msgid "An error occurred while retrieving diff"
 msgstr "获取差异时发生错误"
@@ -2236,7 +2236,7 @@ msgid "CycleAnalyticsStage|Test"
 msgstr "测试"
 
 msgid "Dashboard"
-msgstr ""
+msgstr "控制台"
 
 msgid "DashboardProjects|All"
 msgstr "所有"
@@ -5916,7 +5916,7 @@ msgid "Starred Projects"
 msgstr "已星标项目"
 
 msgid "Starred Projects' Activity"
-msgstr "已星标项目的活动"
+msgstr "已星标项目的动态"
 
 msgid "Starred projects"
 msgstr "已星标项目"
@@ -6214,7 +6214,7 @@ msgid "There are problems accessing Git storage: "
 msgstr "访问 Git 存储时出现问题："
 
 msgid "There was an error loading users activity calendar."
-msgstr "加载用户活动日历时出错。"
+msgstr "加载用户动态日历时出错。"
 
 msgid "There was an error saving your notification settings."
 msgstr "保存通知设置时发生错误。"
@@ -7017,7 +7017,7 @@ msgid "Wiki|Wiki Pages"
 msgstr "Wiki 页面"
 
 msgid "With contribution analytics you can have an overview for the activity of issues, merge requests and push events of your organization and its members."
-msgstr "通过贡献分析，您可以从总体上了解您的组织及其成员的工单、 合并请求和推送活动的情况。"
+msgstr "通过贡献分析，您可以从总体上了解您的组织及其成员的工单、 合并请求和推送动态的情况。"
 
 msgid "Withdraw Access Request"
 msgstr "取消权限申请"
@@ -7137,7 +7137,7 @@ msgid "You will only receive notifications for threads you have participated in"
 msgstr "只接收参与的主题的通知"
 
 msgid "You will receive notifications for any activity"
-msgstr "接收所有活动的通知"
+msgstr "接收所有动态的通知"
 
 msgid "You will receive notifications only for comments in which you were @mentioned"
 msgstr "只接收评论中提及(@)您的通知"
@@ -7176,7 +7176,7 @@ msgid "Your Projects (default)"
 msgstr "您的项目 (默认值)"
 
 msgid "Your Projects' Activity"
-msgstr "您的项目活动"
+msgstr "您的项目动态"
 
 msgid "Your Todos"
 msgstr "您的待办事项"

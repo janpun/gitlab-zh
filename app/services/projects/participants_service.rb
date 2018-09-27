@@ -16,7 +16,7 @@ module Projects
     end
 
     def all_members
-      [{ username: "all", name: "All Project and Group Members", count: project_members.count }]
+      [{ username: "all", name: "所有项目和组成员", count: project_members.count }]
     end
   end
 end
