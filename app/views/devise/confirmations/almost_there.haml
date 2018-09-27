@@ -1,14 +1,14 @@
 .well-confirmation.text-center.append-bottom-20
   %h1.prepend-top-0
-    Almost there...
+    离注册成功只差一步...
   %p.lead.append-bottom-20
-    Please check your email to confirm your account
+    请检查邮箱中的邮件来确认激活您的账户
   %hr
 - if Gitlab::CurrentSettings.after_sign_up_text.present?
   .well-confirmation.text-center
     = markdown_field(Gitlab::CurrentSettings, :after_sign_up_text)
 %p.text-center
-  No confirmation email received? Please check your spam folder or
+  没收到邮件？请检查垃圾箱或者
 .append-bottom-20.prepend-top-20.text-center
   %a.btn.btn-lg.btn-success{ href: new_user_confirmation_path }
-    Request new confirmation email
+    重新发送邮件

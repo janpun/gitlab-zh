@@ -31,16 +31,16 @@ module Gitlab
 
       def options
         {
-          "Guest"      => GUEST,
-          "Reporter"   => REPORTER,
-          "Developer"  => DEVELOPER,
-          "Maintainer" => MAINTAINER
+          "游客"      => GUEST,
+          "报告人"   => REPORTER,
+          "开发人员"  => DEVELOPER,
+          "维护者" => MAINTAINER
         }
       end
 
       def options_with_owner
         options.merge(
-          "Owner" => OWNER
+          "所有者" => OWNER
         )
       end
 

@@ -148,7 +148,7 @@
           %th #
           %th First Name
           %th Last Name
-          %th Username
+          %th 用户名
       %tbody
         %tr
           %td 1
@@ -380,7 +380,7 @@
             .dropdown-title
               %button.dropdown-title-button.dropdown-menu-back{ aria: { label: "Go back" } }
                 = icon('arrow-left')
-              %span Create label
+              %span 创建标签
               %button.dropdown-title-button.dropdown-menu-close{ aria: { label: "Close" } }
                 = icon('times')
             .dropdown-input
@@ -409,7 +409,7 @@
 
   .example
     %div
-      = dropdown_tag("Projects", options: { title: "Go to project", filter: true, placeholder: "Filter projects" })
+      = dropdown_tag("项目", options: { title: "Go to project", filter: true, placeholder: "Filter projects" })
 
   %h2#panels Panels
 

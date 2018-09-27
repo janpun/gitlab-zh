@@ -8,9 +8,9 @@
 - else
   #content
     - if Gitlab.com?
-      = email_default_heading('Thanks for signing up to GitLab!')
+      = email_default_heading('感谢注册Task！')
     - else
-      = email_default_heading("Welcome, #{@resource.name}!")
-    %p To get started, click the link below to confirm your account.
+      = email_default_heading("欢迎, #{@resource.name}")
+    %p 点击下面的链接，激活您的账户
     #cta
-      = link_to 'Confirm your account', confirmation_link
+      = link_to '确认激活', confirmation_link

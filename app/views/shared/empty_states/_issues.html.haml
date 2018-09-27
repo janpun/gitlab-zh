@@ -16,9 +16,9 @@
         - if has_button
           .text-center
             - if project_select_button
-              = render 'shared/new_project_item_select', path: 'issues/new', label: 'New issue', type: :issues, with_feature_enabled: 'issues'
+              = render 'shared/new_project_item_select', path: 'issues/new', label: '新建工单', type: :issues, with_feature_enabled: 'issues'
             - else
-              = link_to 'New issue', button_path, class: 'btn btn-success', title: 'New issue', id: 'new_issue_link'
+              = link_to '新建工单', button_path, class: 'btn btn-success', title: '新建工单', id: 'new_issue_link'
       - else
         %h4.text-center= _("There are no issues to show")
         %p

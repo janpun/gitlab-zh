@@ -4086,7 +4086,7 @@ msgid "Preferences|Navigation theme"
 msgstr ""
 
 msgid "Preview"
-msgstr ""
+msgstr "预览"
 
 msgid "Prioritize"
 msgstr ""
@@ -5767,7 +5767,7 @@ msgid "Use one line per URI"
 msgstr ""
 
 msgid "Use template"
-msgstr ""
+msgstr "使用此模板"
 
 msgid "Use the following registration token during setup:"
 msgstr ""

@@ -1,6 +1,6 @@
 = form_tag(omniauth_callback_path(:user, server['provider_name']), id: 'new_ldap_user', class: "gl-show-field-errors") do
   .form-group
-    = label_tag :username, "#{server['label']} Username"
+    = label_tag :username, "#{server['label']} 用户名"
     = text_field_tag :username, nil, { class: "form-control top", title: "This field is required.", autofocus: "autofocus", required: true }
   .form-group
     = label_tag :password

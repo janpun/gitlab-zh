@@ -23,7 +23,7 @@
       = render 'shared/group_form', f: f, autofocus: true
 
       .form-group.row.group-description-holder
-        = f.label :avatar, "Group avatar", class: 'col-form-label col-sm-2'
+        = f.label :avatar, "群组头像", class: 'col-form-label col-sm-2'
         .col-sm-10
           = render 'shared/choose_group_avatar_button', f: f
 
@@ -36,5 +36,5 @@
           = render 'shared/group_tips'
 
       .form-actions
-        = f.submit 'Create group', class: "btn btn-create"
-        = link_to 'Cancel', dashboard_groups_path, class: 'btn btn-cancel'
+        = f.submit '创建群组', class: "btn btn-create"
+        = link_to '取消', dashboard_groups_path, class: 'btn btn-cancel'

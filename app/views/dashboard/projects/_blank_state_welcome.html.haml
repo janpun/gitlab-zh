@@ -8,18 +8,18 @@
           = custom_icon("add_new_project", size: 50)
         .blank-state-body
           %h3.blank-state-title
-            Create a project
+            创建项目
           %p.blank-state-text
-            Projects are where you store your code, access issues, wiki and other features of GitLab.
+            项目是您存储代码，访问工单，Wiki和其他功能的地方。
   - else
     .blank-state
       .blank-state-icon
         = custom_icon("add_new_project", size: 50)
       .blank-state-body
         %h3.blank-state-title
-          Create a project
+          创建项目
         %p.blank-state-text
-          If you are added to a project, it will be displayed here.
+          如果您添加了项目，它将显示在此处。
 
   - if current_user.can_create_group?
     = link_to new_group_path, class: "blank-state-link" do
@@ -28,9 +28,9 @@
           = custom_icon("add_new_group", size: 50)
         .blank-state-body
           %h3.blank-state-title
-            Create a group
+            创建群组
           %p.blank-state-text
-            Groups are the best way to manage projects and members.
+            群组是管理项目和成员的最佳方式。
 
   - if public_project_count > 0
     = link_to trending_explore_projects_path, class: "blank-state-link" do
@@ -47,12 +47,12 @@
             Public projects are an easy way to allow
             everyone to have read-only access.
 
-  = link_to "https://docs.gitlab.com/", class: "blank-state-link" do
+  = link_to "/help", class: "blank-state-link" do
     .blank-state
       .blank-state-icon
         = custom_icon("lightbulb", size: 50)
       .blank-state-body
         %h3.blank-state-title
-          Learn more about GitLab
+          帮助中心
         %p.blank-state-text
-          Take a look at the documentation to discover all of GitLab's capabilities.
+          查看文档以发现Task的所有功能。

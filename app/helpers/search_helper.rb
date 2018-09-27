@@ -116,7 +116,7 @@ module SearchHelper
     current_user.authorized_projects.order_id_desc.search_by_title(term)
       .sorted_by_stars.non_archived.limit(limit).map do |p|
       {
-        category: "Projects",
+        category: "项目",
         id: p.id,
         value: "#{search_result_sanitize(p.name)}",
         label: "#{search_result_sanitize(p.full_name)}",

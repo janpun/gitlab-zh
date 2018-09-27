@@ -109,7 +109,7 @@
       = f.check_box :private_profile, label: private_profile_label
       .prepend-top-default.append-bottom-default
         = f.submit 'Update profile settings', class: 'btn btn-success'
-        = link_to 'Cancel', user_path(current_user), class: 'btn btn-cancel'
+        = link_to '取消', user_path(current_user), class: 'btn btn-cancel'
 
 .modal.modal-profile-crop
   .modal-dialog

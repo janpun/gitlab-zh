@@ -16,7 +16,7 @@
         %li.dropdown-header= _('This project')
 
       - if can_create_issue
-        %li= link_to _('New issue'), new_project_issue_path(@project)
+        %li= link_to _('新建工单'), new_project_issue_path(@project)
 
       - if merge_project
         %li= link_to _('New merge request'), project_new_merge_request_path(merge_project)

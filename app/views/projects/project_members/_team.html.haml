@@ -10,7 +10,7 @@
     = form_tag project_project_members_path(project), method: :get, class: 'form-inline member-search-form flex-project-members-form'  do
       .form-group
         .position-relative
-          = search_field_tag :search, params[:search], { placeholder: 'Find existing members by name', class: 'form-control', spellcheck: false }
+          = search_field_tag :search, params[:search], { placeholder: '搜索', class: 'form-control', spellcheck: false }
           %button.member-search-btn{ type: "submit", "aria-label" => "Submit search" }
             = icon("search")
         = render 'shared/members/sort_dropdown'

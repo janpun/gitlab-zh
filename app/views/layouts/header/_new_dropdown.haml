@@ -12,7 +12,7 @@
             = _('This group')
           - if create_group_project
             %li.header-new-group-project
-              = link_to _('New project'), new_project_path(namespace_id: @group.id)
+              = link_to _('新建项目'), new_project_path(namespace_id: @group.id)
           - if create_group_subgroup
             %li
               = link_to _('New subgroup'), new_group_path(parent_id: @group.id)
@@ -39,7 +39,7 @@
           %li.dropdown-bold-header GitLab
       - if current_user.can_create_project?
         %li
-          = link_to _('New project'), new_project_path, class: 'qa-global-new-project-link'
+          = link_to _('新建项目'), new_project_path, class: 'qa-global-new-project-link'
       - if current_user.can_create_group?
         %li
           = link_to _('New group'), new_group_path

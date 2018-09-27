@@ -2,7 +2,7 @@
   - if dashboard_nav_link?(:projects)
     = nav_link(path: ['root#index', 'projects#trending', 'projects#starred', 'dashboard/projects#index'], html_options: { id: 'nav-projects-dropdown', class: "home dropdown header-projects qa-projects-dropdown" }) do
       %button{ type: 'button', data: { toggle: "dropdown" } }
-        = _('Projects')
+        = _('项目')
         = sprite_icon('angle-down', css_class: 'caret-down')
       .dropdown-menu.frequent-items-dropdown-menu
         = render "layouts/nav/projects_dropdown/show"
@@ -55,8 +55,8 @@
   -# Shortcut to Dashboard > Projects
   - if dashboard_nav_link?(:projects)
     %li.hidden
-      = link_to dashboard_projects_path, title: _('Projects'), class: 'dashboard-shortcuts-projects' do
-        = _('Projects')
+      = link_to dashboard_projects_path, title: _('项目'), class: 'dashboard-shortcuts-projects' do
+        = _('项目')
 
   - if current_controller?('ide')
     %li.line-separator.d-none.d-sm-block

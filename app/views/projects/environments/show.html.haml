@@ -27,7 +27,7 @@
                   rel: 'noopener noreferrer' }
                   = s_('Environments|Learn more about stopping environments')
           .modal-footer
-            = button_tag _('Cancel'), type: 'button', class: 'btn btn-cancel', data: { dismiss: 'modal' }
+            = button_tag _('取消'), type: 'button', class: 'btn btn-cancel', data: { dismiss: 'modal' }
             = button_to stop_project_environment_path(@project, @environment), class: 'btn btn-danger has-tooltip', method: :post do
               = s_('Environments|Stop environment')
 

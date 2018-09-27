@@ -10,7 +10,7 @@ module PreferencesHelper
   # Maps `dashboard` values to more user-friendly option text
   DASHBOARD_CHOICES = {
     projects: _("Your Projects (default)"),
-    stars:    _("Starred Projects"),
+    stars:    _("星标项目"),
     project_activity: _("Your Projects' Activity"),
     starred_project_activity: _("Starred Projects' Activity"),
     groups: _("Your Groups"),

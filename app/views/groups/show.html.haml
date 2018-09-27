@@ -13,7 +13,7 @@
       = render "shared/groups/search_form"
       = render "shared/groups/dropdown", show_archive_options: true
       - if can? current_user, :create_projects, @group
-        - new_project_label = _("New project")
+        - new_project_label = _("新建项目")
         - new_subgroup_label = _("New subgroup")
         - if can_create_subgroups
           .btn-group.new-project-subgroup.droplab-dropdown.js-new-project-subgroup{ data: { project_path: new_project_path(namespace_id: @group.id), subgroup_path: new_group_path(parent_id: @group.id) } }

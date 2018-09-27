@@ -13,21 +13,21 @@
     %li.divider
     %li
       = link_to filter_projects_path(archived: nil), class: ("is-active" unless params[:archived].present?) do
-        Hide archived projects
+        隐藏已归档的项目
     %li
       = link_to filter_projects_path(archived: true), class: ("is-active" if Gitlab::Utils.to_boolean(params[:archived])) do
-        Show archived projects
+        显示已归档的项目
     %li
       = link_to filter_projects_path(archived: 'only'), class: ("is-active" if params[:archived] == 'only') do
-        Show archived projects only
+        只显示已归档的项目
     - if current_user
       %li.divider
       %li
         = link_to filter_projects_path(personal: nil), class: ("is-active" unless params[:personal].present?) do
-          Owned by anyone
+          不限所有权
       %li
         = link_to filter_projects_path(personal: true), class: ("is-active" if params[:personal].present?) do
-          Owned by me
+          只显示我所有的
       - if @group && @group.shared_projects.present?
         %li.divider
         %li

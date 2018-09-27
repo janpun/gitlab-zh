@@ -34,6 +34,6 @@
               = hidden_field_tag 'create_merge_request', 1, id: nil
           .form-actions
             = submit_tag label, class: 'btn btn-create'
-            = link_to _("Cancel"), '#', class: "btn btn-cancel", "data-dismiss" => "modal"
+            = link_to _("取消"), '#', class: "btn btn-cancel", "data-dismiss" => "modal"
 
             = render 'shared/projects/edit_information'

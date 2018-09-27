@@ -64,8 +64,8 @@
 
     .form-actions
       - if @user.new_record?
-        = f.submit 'Create user', class: "btn btn-create"
-        = link_to 'Cancel', admin_users_path, class: "btn btn-cancel"
+        = f.submit '创建用户', class: "btn btn-create"
+        = link_to '取消', admin_users_path, class: "btn btn-cancel"
       - else
-        = f.submit 'Save changes', class: "btn btn-save"
-        = link_to 'Cancel', admin_user_path(@user), class: "btn btn-cancel"
+        = f.submit '保存修改', class: "btn btn-save"
+        = link_to '取消', admin_user_path(@user), class: "btn btn-cancel"

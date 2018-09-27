@@ -6,7 +6,7 @@
   .form-group.project-path.col-sm-6
     = f.label :namespace_id, class: 'label-bold' do
       %span
-        Project path
+        项目地址
     .input-group
       - if current_user.can_select_namespace?
         .input-group-prepend.has-tooltip{ title: root_url }
@@ -28,21 +28,21 @@
   .form-group.project-path.col-sm-6
     = f.label :path, class: 'label-bold' do
       %span
-        Project name
-    = f.text_field :path, placeholder: "my-awesome-project", class: "form-control", tabindex: 2, autofocus: true, required: true
+        项目名称
+    = f.text_field :path, placeholder: "项目名称", class: "form-control", tabindex: 2, autofocus: true, required: true
 - if current_user.can_create_group?
   .form-text.text-muted
-    Want to house several dependent projects under the same namespace?
-    = link_to "Create a group", new_group_path
+    想要将几个项目合并到一个群组下？
+    = link_to "创建群组", new_group_path
 
 .form-group
   = f.label :description, class: 'label-bold' do
-    Project description
-    %span (optional)
-  = f.text_area :description, placeholder: 'Description format',  class: "form-control", rows: 3, maxlength: 250
+    项目描述
+    %span (可选)
+  = f.text_area :description, placeholder: '描述内容',  class: "form-control", rows: 3, maxlength: 250
 
 = f.label :visibility_level, class: 'label-bold' do
-  Visibility Level
+  访问权限
   = link_to icon('question-circle'), help_page_path("public_access/public_access"), aria: { label: 'Documentation for Visibility Level' }, target: '_blank', rel: 'noopener noreferrer'
 = render 'shared/visibility_level', f: f, visibility_level: visibility_level.to_i, can_change_visibility_level: true, form_model: @project, with_label: false
 
@@ -52,9 +52,9 @@
       = check_box_tag 'project[initialize_with_readme]', '1', false, class: 'form-check-input'
       = label_tag 'project[initialize_with_readme]', class: 'form-check-label' do
         .option-title
-          %strong Initialize repository with a README
+          %strong 使用自带的描述文件初始化Git库
         .option-description
-          Allows you to immediately clone this project’s repository. Skip this if you plan to push up an existing repository.
+          允许您立即克隆此项目的Git库。 如果您打算提交已存在的Git库，请跳过此步骤。
 
-= f.submit 'Create project', class: "btn btn-create project-submit", tabindex: 4
-= link_to 'Cancel', dashboard_projects_path, class: 'btn btn-cancel'
+= f.submit '创建项目', class: "btn btn-create project-submit", tabindex: 4
+= link_to '取消', dashboard_projects_path, class: 'btn btn-cancel'

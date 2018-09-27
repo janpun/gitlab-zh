@@ -81,7 +81,7 @@
           %span.badge.badge-pill= milestone.issues_visible_to_user(current_user).count
           - if show_new_issue_link?(project)
             = link_to new_project_issue_path(project, issue: { milestone_id: milestone.id }), class: "float-right", title: "New Issue" do
-              New issue
+              新建工单
         .value.hide-collapsed.bold
           %span.milestone-stat
             = link_to milestones_browse_issuables_path(milestone, type: :issues) do

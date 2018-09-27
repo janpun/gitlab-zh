@@ -1,5 +1,5 @@
 - page_title _("GitLab Import")
-- header_title _("Projects"), root_path
+- header_title _("项目"), root_path
 
 %h3.page-title
   = icon('gitlab')
@@ -25,7 +25,7 @@
             = hidden_field_tag :namespace_id, value: current_user.namespace_id
     .form-group.col-12.col-sm-6.project-path
       = label_tag :path, _('Project name'), class: 'label-bold'
-      = text_field_tag :path, @path, placeholder: "my-awesome-project", class: "js-path-name form-control", tabindex: 2, autofocus: true, required: true
+      = text_field_tag :path, @path, placeholder: "项目名称", class: "js-path-name form-control", tabindex: 2, autofocus: true, required: true
 
   .row
     .form-group.col-md-12
@@ -38,5 +38,5 @@
         = file_field_tag :file, class: ''
   .row
     .form-actions.col-sm-12
-      = submit_tag _('Import project'), class: 'btn btn-create'
-      = link_to _('Cancel'), new_project_path, class: 'btn btn-cancel'
+      = submit_tag _('导入项目'), class: 'btn btn-create'
+      = link_to _('取消'), new_project_path, class: 'btn btn-cancel'

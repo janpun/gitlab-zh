@@ -5,9 +5,9 @@
         = custom_icon("add_new_project", size: 50)
       .blank-state-body
         %h3.blank-state-title
-          Create a project
+          创建项目
         %p.blank-state-text
-          Projects are where you store your code, access issues, wiki and other features of GitLab.
+          项目是您存储代码，访问工单，Wiki和其他功能的地方。
 
   - if current_user.can_create_group?
     = link_to new_group_path, class: "blank-state-link" do
@@ -16,9 +16,9 @@
           = custom_icon("add_new_group", size: 50)
         .blank-state-body
           %h3.blank-state-title
-            Create a group
+            创建群组
           %p.blank-state-text
-            Groups are a great way to organize projects and people.
+            群组是管理项目和成员的最佳方式。
 
     = link_to new_admin_user_path, class: "blank-state-link" do
       .blank-state
@@ -26,9 +26,9 @@
           = custom_icon("add_new_user", size: 50)
         .blank-state-body
           %h3.blank-state-title
-            Add people
+            新增成员
           %p.blank-state-text
-            Add your team members and others to GitLab.
+            将您的团队成员和其他人添加到Task。
 
   = link_to admin_root_path, class: "blank-state-link" do
     .blank-state
@@ -36,6 +36,6 @@
         = custom_icon("configure_server", size: 50)
       .blank-state-body
         %h3.blank-state-title
-          Configure GitLab
+          配置
         %p.blank-state-text
-          Make adjustments to how your GitLab instance is set up.
+          调整实例的设置方式。

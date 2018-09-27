@@ -595,7 +595,7 @@ msgid "Any"
 msgstr ""
 
 msgid "Any Label"
-msgstr "任何标记"
+msgstr "任何标签"
 
 msgid "Appearance"
 msgstr "外观"
@@ -661,7 +661,7 @@ msgid "Assign custom color like #FF0000"
 msgstr "分配自定义颜色，如FF0000"
 
 msgid "Assign labels"
-msgstr "指派标记"
+msgstr "指派标签"
 
 msgid "Assign milestone"
 msgstr "分配里程碑"
@@ -2119,13 +2119,13 @@ msgid "Create group"
 msgstr ""
 
 msgid "Create group label"
-msgstr "创建群组标记"
+msgstr "创建群组标签"
 
 msgid "Create issue"
 msgstr "创建工单"
 
 msgid "Create lists from labels. Issues with that label appear in that list."
-msgstr "从标记创建列表，含有该标记的工单将出现在相应的列中。"
+msgstr "从标签创建列表，含有该标签的工单将出现在相应的列中。"
 
 msgid "Create merge request"
 msgstr "创建合并请求"
@@ -2146,13 +2146,13 @@ msgid "Create new file or directory"
 msgstr ""
 
 msgid "Create new label"
-msgstr "创建新标记"
+msgstr "创建新标签"
 
 msgid "Create new..."
 msgstr "创建..."
 
 msgid "Create project label"
-msgstr "创建项目标记"
+msgstr "创建项目标签"
 
 msgid "CreateNewFork|Fork"
 msgstr "派生"
@@ -2254,7 +2254,7 @@ msgid "Decline and sign out"
 msgstr "拒绝并退出"
 
 msgid "Default classification label"
-msgstr "默认分类标记"
+msgstr "默认分类标签"
 
 msgid "Default: Directly import the Google Code email address or username"
 msgstr ""
@@ -2408,7 +2408,7 @@ msgid "DeployTokens|Your new project deploy token has been created."
 msgstr "新项目部署令牌已创建。"
 
 msgid "Deprioritize label"
-msgstr "取消优先标记"
+msgstr "取消优先标签"
 
 msgid "Descending"
 msgstr "降序"
@@ -2717,7 +2717,7 @@ msgid "Error fetching contributors data."
 msgstr "获取贡献者数据时出错。"
 
 msgid "Error fetching labels."
-msgstr "获取标记时出错。"
+msgstr "获取标签时出错。"
 
 msgid "Error fetching network graph."
 msgstr "获取网络图时出错。"
@@ -2747,7 +2747,7 @@ msgid "Error occurred when toggling the notification subscription"
 msgstr "切换通知订阅时发生错误"
 
 msgid "Error saving label update."
-msgstr "保存标记更新时出错。"
+msgstr "保存标签更新时出错。"
 
 msgid "Error updating status for all todos."
 msgstr "更新所有待办事项的状态时出错。"
@@ -2997,7 +2997,7 @@ msgid "General pipelines"
 msgstr "一般流水线"
 
 msgid "Generate a default set of labels"
-msgstr "生成一组默认的标记"
+msgstr "生成一组默认的标签"
 
 msgid "Geo Nodes"
 msgstr "Geo 节点"
@@ -3300,7 +3300,7 @@ msgid "Group Runners"
 msgstr "群组Runner"
 
 msgid "Group avatar"
-msgstr ""
+msgstr "群组头像"
 
 msgid "Group details"
 msgstr ""
@@ -3740,13 +3740,13 @@ msgid "LFSStatus|Enabled"
 msgstr "启用"
 
 msgid "Label"
-msgstr "标记"
+msgstr "标签"
 
 msgid "Label actions dropdown"
-msgstr "标记操作下拉菜单"
+msgstr "标签操作下拉菜单"
 
 msgid "Label lists show all issues with the selected label."
-msgstr "标记列表显示具有所选标记的所有工单。"
+msgstr "标签列表显示具有所选标签的所有工单。"
 
 msgid "LabelSelect|%{firstLabelName} +%{remainingLabelCount} more"
 msgstr "%{firstLabelName} +%{remainingLabelCount} 更多"
@@ -3755,25 +3755,25 @@ msgid "LabelSelect|%{labelsString}, and %{remainingLabelCount} more"
 msgstr "%{labelsString}和 %{remainingLabelCount} 更多"
 
 msgid "LabelSelect|Labels"
-msgstr "标记"
+msgstr "标签"
 
 msgid "Labels"
-msgstr "标记"
+msgstr "标签"
 
 msgid "Labels can be applied to %{features}. Group labels are available for any project within the group."
-msgstr "标记可以应用于 %{features}。群组标记可用于群组中的所有项目。"
+msgstr "标签可以应用于 %{features}。群组标签可用于群组中的所有项目。"
 
 msgid "Labels can be applied to issues and merge requests to categorize them."
-msgstr "标记可用于对工单和合并请求进行分类。"
+msgstr "标签可用于对工单和合并请求进行分类。"
 
 msgid "Labels can be applied to issues and merge requests."
-msgstr "标记可用于工单和合并请求。"
+msgstr "标签可用于工单和合并请求。"
 
 msgid "Labels|<span>Promote label</span> %{labelTitle} <span>to Group Label?</span>"
-msgstr "<span>将标记</span> %{labelTitle} <span>升级为群组标记？</span>"
+msgstr "<span>将标签</span> %{labelTitle} <span>升级为群组标签？</span>"
 
 msgid "Labels|Promote Label"
-msgstr "升级标记"
+msgstr "升级标签"
 
 msgid "Last %d day"
 msgid_plural "Last %d days"
@@ -3909,13 +3909,13 @@ msgid "Manage applications that you've authorized to use your account."
 msgstr ""
 
 msgid "Manage group labels"
-msgstr "管理群组标记"
+msgstr "管理群组标签"
 
 msgid "Manage labels"
-msgstr "管理标记"
+msgstr "管理标签"
 
 msgid "Manage project labels"
-msgstr "管理项目标记"
+msgstr "管理项目标签"
 
 msgid "Manage your group’s membership while adding another level of security with SAML."
 msgstr "通过SAML管理群组成员，进一步提高安全性。"
@@ -3945,7 +3945,7 @@ msgid "March"
 msgstr "三月"
 
 msgid "Mark todo as done"
-msgstr "标记为已完成"
+msgstr "标签为已完成"
 
 msgid "Markdown enabled"
 msgstr "支持Markdown格式"
@@ -4197,7 +4197,7 @@ msgid "Name"
 msgstr "姓名"
 
 msgid "Name new label"
-msgstr "命名新标记"
+msgstr "命名新标签"
 
 msgid "Name your individual key via a title"
 msgstr "通过标题命名您的个人密钥"
@@ -4273,7 +4273,7 @@ msgid "New issue"
 msgstr "新建工单"
 
 msgid "New label"
-msgstr "新建标记"
+msgstr "新建标签"
 
 msgid "New merge request"
 msgstr "新建合并请求"
@@ -4303,7 +4303,7 @@ msgid "No"
 msgstr "否"
 
 msgid "No Label"
-msgstr "无标记"
+msgstr "无标签"
 
 msgid "No assignee"
 msgstr "未指派"
@@ -4552,7 +4552,7 @@ msgid "Or you can choose one of the suggested colors below"
 msgstr "或者您可以选择下面的建议颜色之一"
 
 msgid "Other Labels"
-msgstr "其他标记"
+msgstr "其他标签"
 
 msgid "Other information"
 msgstr "其他信息"
@@ -4603,7 +4603,7 @@ msgid "Pending"
 msgstr "等待中"
 
 msgid "Per job. If a job passes this threshold, it will be marked as failed"
-msgstr "每个作业。如果作业超过此阈值，则会将其标记为失败"
+msgstr "每个作业。如果作业超过此阈值，则会将其标签为失败"
 
 msgid "Perform advanced options such as changing path, transferring, or removing the group."
 msgstr "执行高级选项，例如更改路径，移动或删除群组。"
@@ -4828,13 +4828,13 @@ msgid "Prioritize"
 msgstr "优先"
 
 msgid "Prioritize label"
-msgstr "优先标记"
+msgstr "优先标签"
 
 msgid "Prioritized Labels"
-msgstr "优先的标记"
+msgstr "优先的标签"
 
 msgid "Prioritized label"
-msgstr "优先的标记"
+msgstr "优先的标签"
 
 msgid "Private - Project access must be granted explicitly to each user."
 msgstr "私人 - 必须向每个用户明确授予项目访问权限。"
@@ -5167,7 +5167,7 @@ msgid "Promote to Group Milestone"
 msgstr "升级到群组里程碑"
 
 msgid "Promote to group label"
-msgstr "升级到群组标记"
+msgstr "升级到群组标签"
 
 msgid "Promotions|Don't show me this again"
 msgstr "不再显示"
@@ -5784,7 +5784,7 @@ msgid "SortOptions|Due soon"
 msgstr "即将截止"
 
 msgid "SortOptions|Label priority"
-msgstr "标记优先"
+msgstr "标签优先"
 
 msgid "SortOptions|Largest group"
 msgstr "最大群组"
@@ -5907,7 +5907,7 @@ msgid "Staged %{type}"
 msgstr "已暂存的 %{type}"
 
 msgid "Star a label to make it a priority label. Order the prioritized labels to change their relative priority, by dragging."
-msgstr "把一个标记加上星标，可将其变为优先标记。通过拖放来调整优先标记的顺序，可以改变他们的相对优先级。"
+msgstr "把一个标签加上星标，可将其变为优先标签。通过拖放来调整优先标签的顺序，可以改变他们的相对优先级。"
 
 msgid "StarProject|Star"
 msgstr "星标"
@@ -6007,7 +6007,7 @@ msgid "TagsPage|Browse files"
 msgstr "浏览文件"
 
 msgid "TagsPage|Can't find HEAD commit for this tag"
-msgstr "无法找到此标记的HEAD提交"
+msgstr "无法找到此标签的HEAD提交"
 
 msgid "TagsPage|Cancel"
 msgstr "取消"
@@ -6025,7 +6025,7 @@ msgid "TagsPage|Edit release notes"
 msgstr "编辑发行记录"
 
 msgid "TagsPage|Existing branch name, tag, or commit SHA"
-msgstr "已存在分支名称，标记或提交SHA"
+msgstr "已存在分支名称，标签或提交SHA"
 
 msgid "TagsPage|Filter by tag name"
 msgstr "根据标签名称过滤"
@@ -6055,7 +6055,7 @@ msgid "TagsPage|Tags"
 msgstr "标签"
 
 msgid "TagsPage|Tags give the ability to mark specific points in history as being important"
-msgstr "使用标签，可以标记提交历史上的特定点为重要提交"
+msgstr "使用标签，可以标签提交历史上的特定点为重要提交"
 
 msgid "TagsPage|This tag has no release notes."
 msgstr "此标签没有发行说明。"
@@ -6220,16 +6220,16 @@ msgid "There was an error saving your notification settings."
 msgstr "保存通知设置时发生错误。"
 
 msgid "There was an error subscribing to this label."
-msgstr "订阅此标记时出错。"
+msgstr "订阅此标签时出错。"
 
 msgid "There was an error when reseting email token."
 msgstr "重置电子邮件令牌时出错。"
 
 msgid "There was an error when subscribing to this label."
-msgstr "订阅此标记时出错。"
+msgstr "订阅此标签时出错。"
 
 msgid "There was an error when unsubscribing from this label."
-msgstr "取消订阅此标记时出错。"
+msgstr "取消订阅此标签时出错。"
 
 msgid "They can be managed using the %{link}."
 msgstr "他们可以通过 %{link} 进行管理。"
@@ -6630,7 +6630,7 @@ msgid "Trigger this manual action"
 msgstr "触发此手动操作"
 
 msgid "Triggers can force a specific branch or tag to get rebuilt with an API call.  These tokens will impersonate their associated user including their access to projects and their project permissions."
-msgstr "触发器可以通过 API 调用使特定的分支或标记被重新构建，这些 token 可代表与其关联的用户（包括该用户对项目的访问权限）"
+msgstr "触发器可以通过 API 调用使特定的分支或标签被重新构建，这些 token 可代表与其关联的用户（包括该用户对项目的访问权限）"
 
 msgid "Try again"
 msgstr "请重试"
@@ -6795,7 +6795,7 @@ msgid "View file @ "
 msgstr "浏览文件 @ "
 
 msgid "View group labels"
-msgstr "查看群组标记"
+msgstr "查看群组标签"
 
 msgid "View issue"
 msgstr "查看工单"
@@ -6807,7 +6807,7 @@ msgid "View jobs"
 msgstr "查看作业"
 
 msgid "View labels"
-msgstr "查看标记"
+msgstr "查看标签"
 
 msgid "View log"
 msgstr "查看日志"
@@ -6816,7 +6816,7 @@ msgid "View open merge request"
 msgstr "查看待处理的合并请求"
 
 msgid "View project labels"
-msgstr "查看项目标记"
+msgstr "查看项目标签"
 
 msgid "View replaced file @ "
 msgstr "查看替换文件 @ "
@@ -6828,7 +6828,7 @@ msgid "Visibility level:"
 msgstr ""
 
 msgid "Visibility:"
-msgstr ""
+msgstr "访问权限："
 
 msgid "VisibilityLevel|Internal"
 msgstr "内部"
@@ -7059,7 +7059,7 @@ msgid "You can also create a project from the command line."
 msgstr "您也可以通过命令行来创建新项目。"
 
 msgid "You can also star a label to make it a priority label."
-msgstr "可以通过为标记设置星标来提高其优先级。"
+msgstr "可以通过为标签设置星标来提高其优先级。"
 
 msgid "You can also test your .gitlab-ci.yml in the %{linkStart}Lint%{linkEnd}"
 msgstr "您也可以通过%{linkStart}Lint%{linkEnd}测试.gitlab-ci.yml"
@@ -7417,7 +7417,7 @@ msgid "ciReport|There was an error reverting the dismissal. Please try again."
 msgstr "取消忽略操作时发生错误。请再试一次。"
 
 msgid "ciReport|Unapproved vulnerabilities (red) can be marked as approved."
-msgstr "未批准的漏洞 (红色) 可以标记为已批准。"
+msgstr "未批准的漏洞 (红色) 可以标签为已批准。"
 
 msgid "ciReport|Upgrade %{name} from %{version} to %{fixed}."
 msgstr "将 %{name} 从 %{version} 升级到 %{fixed}。"

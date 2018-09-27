@@ -20,7 +20,7 @@ class ConfirmationsController < Devise::ConfirmationsController
       after_sign_in(resource)
     else
       Gitlab::AppLogger.info("Email Confirmed: username=#{resource.username} email=#{resource.email} ip=#{request.remote_ip}")
-      flash[:notice] += " Please sign in."
+      flash[:notice] += " 请登录"
       new_session_path(:user, anchor: 'login-pane')
     end
   end

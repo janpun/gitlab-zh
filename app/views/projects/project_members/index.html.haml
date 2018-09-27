@@ -1,4 +1,4 @@
-- page_title "Members"
+- page_title "成员管理"
 
 .row.prepend-top-default
   .col-lg-12
@@ -33,7 +33,7 @@
         = render 'shared/members/requests', membership_source: @project, requesters: @requesters
         .clearfix
           %h5.member.existing-title
-            Existing members and groups
+            已存在成员和群组
         - if @group_links.any?
           = render 'projects/project_members/groups', group_links: @group_links
 

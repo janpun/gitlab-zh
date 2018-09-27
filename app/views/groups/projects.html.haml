@@ -1,4 +1,4 @@
-- breadcrumb_title "Projects"
+- breadcrumb_title "项目"
 
 .card.prepend-top-default
   .card-header
@@ -7,7 +7,7 @@
     - if can? current_user, :admin_group, @group
       .controls
         = link_to new_project_path(namespace_id: @group.id), class: "btn btn-sm btn-success" do
-          New project
+          新建项目
   %ul.content-list
     - @projects.each do |project|
       %li

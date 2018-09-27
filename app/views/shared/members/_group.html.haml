@@ -8,7 +8,7 @@
     .user-info
       = link_to group.full_name, group_path(group), class: 'member'
       .cgray
-        Given access #{time_ago_with_tooltip(group_link.created_at)}
+        权限授予： #{time_ago_with_tooltip(group_link.created_at)}
         - if group_link.expires?
           ·
           %span{ class: ('text-warning' if group_link.expires_soon?) }

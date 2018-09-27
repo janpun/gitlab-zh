@@ -37,6 +37,6 @@
         = f.submit 'Save changes', class: "btn-save btn"
 
       - if @snippet.project_id
-        = link_to "Cancel", project_snippets_path(@project), class: "btn btn-cancel"
+        = link_to "取消", project_snippets_path(@project), class: "btn btn-cancel"
       - else
-        = link_to "Cancel", snippets_path(@project), class: "btn btn-cancel"
+        = link_to "取消", snippets_path(@project), class: "btn btn-cancel"

@@ -3,7 +3,7 @@
 .project-import
   .form-group.import-btn-container.clearfix
     %h5
-      Import project from
+      从以下平台导入项目
     .import-buttons
       - if gitlab_project_import_enabled?
         .import_gitlab_project.has-tooltip{ data: { container: 'body' } }
@@ -52,7 +52,7 @@
       - if git_import_enabled?
         %div
           %button.btn.js-toggle-button.js-import-git-toggle-button{ type: "button", data: { toggle_open_class: 'active' } }
-            = icon('git', text: 'Repo by URL')
+            = icon('git', text: '自托管Git链接')
 
       - if manifest_import_enabled?
         %div
