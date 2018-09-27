@@ -71,7 +71,7 @@ http://app.asana.com/-/account_api'
     project_name = project.full_name
 
     data[:commits].each do |commit|
-      push_msg = "#{user} pushed to branch #{branch} of #{project_name} ( #{commit[:url]} ):"
+      push_msg = "#{user} 推送分支 #{branch} of #{project_name} ( #{commit[:url]} ):"
       check_commit(commit[:message], push_msg)
     end
   end

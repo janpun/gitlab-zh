@@ -3047,7 +3047,7 @@ msgid "Install Runner on Kubernetes"
 msgstr ""
 
 msgid "Instance Statistics"
-msgstr ""
+msgstr "实例统计"
 
 msgid "Instance Statistics visibility"
 msgstr ""

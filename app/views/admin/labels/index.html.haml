@@ -1,10 +1,10 @@
-- page_title _("Labels")
+- page_title _("标签")
 
 %div
   = link_to new_admin_label_path, class: "float-right btn btn-nr btn-new" do
-    = _('New label')
+    = _('新建标签')
   %h3.page-title
-    = _('Labels')
+    = _('标签')
 %hr
 
 .labels.labels-container.admin-labels
@@ -16,4 +16,3 @@
   - else
     .card.bg-light
       .nothing-here-block= _('There are no labels yet')
-

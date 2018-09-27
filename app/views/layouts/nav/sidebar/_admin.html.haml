@@ -174,12 +174,12 @@
           .nav-icon-container
             = sprite_icon('labels')
           %span.nav-item-name
-            = _('Labels')
+            = _('标签')
         %ul.sidebar-sub-level-items.is-fly-out-only
           = nav_link(controller: :labels, html_options: { class: "fly-out-top-item" } ) do
             = link_to admin_labels_path do
               %strong.fly-out-top-item-name
-                = _('Labels')
+                = _('标签')
 
       = nav_link(controller: :appearances) do
         = link_to admin_appearances_path do

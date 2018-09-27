@@ -115,16 +115,16 @@
                   = boards_link_text
 
             = nav_link(controller: :labels) do
-              = link_to project_labels_path(@project), title: _('Labels') do
+              = link_to project_labels_path(@project), title: _('标签') do
                 %span
-                  = _('Labels')
+                  = _('标签')
 
             = render_if_exists 'projects/sidebar/issues_service_desk'
 
             = nav_link(controller: :milestones) do
-              = link_to project_milestones_path(@project), title: _('Milestones'), class: 'qa-milestones-link' do
+              = link_to project_milestones_path(@project), title: _('里程碑'), class: 'qa-milestones-link' do
                 %span
-                  = _('Milestones')
+                  = _('里程碑')
       - if project_nav_tab? :external_issue_tracker
         = nav_link do
           - issue_tracker = @project.external_issue_tracker

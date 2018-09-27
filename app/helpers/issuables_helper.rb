@@ -204,7 +204,7 @@ module IssuablesHelper
 
       label_names.join(', ')
     else
-      _("Labels")
+      _("标签")
     end
   end
 

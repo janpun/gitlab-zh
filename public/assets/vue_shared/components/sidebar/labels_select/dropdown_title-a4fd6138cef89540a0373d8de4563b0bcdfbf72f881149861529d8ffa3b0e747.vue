@@ -11,7 +11,7 @@ export default {
 
 <template>
   <div class="title hide-collapsed append-bottom-10">
-    {{ __('Labels') }}
+    {{ __('标签') }}
     <template v-if="canEdit">
       <i
         aria-hidden="true"

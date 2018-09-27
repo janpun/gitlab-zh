@@ -88,7 +88,7 @@ module SearchHelper
         { category: "In this project", label: "Graph",          url: project_graph_path(@project, ref) },
         { category: "In this project", label: "Issues",         url: project_issues_path(@project) },
         { category: "In this project", label: "Merge Requests", url: project_merge_requests_path(@project) },
-        { category: "In this project", label: "Milestones",     url: project_milestones_path(@project) },
+        { category: "In this project", label: "里程碑",     url: project_milestones_path(@project) },
         { category: "In this project", label: "Snippets",       url: project_snippets_path(@project) },
         { category: "In this project", label: "Members",        url: project_project_members_path(@project) },
         { category: "In this project", label: "Wiki",           url: project_wikis_path(@project) }
@@ -147,7 +147,7 @@ module SearchHelper
     opts =
       {
         id: "filtered-search-#{type}",
-        placeholder: 'Search or filter results...',
+        placeholder: '搜索...',
         data: {
           'username-params' => UserSerializer.new.represent(@users)
         },

@@ -94,7 +94,7 @@
             %span
               = selected_labels.size
           .title.hide-collapsed
-            = _('Labels')
+            = _('标签')
             = icon('spinner spin', class: 'hidden block-loading', 'aria-hidden': 'true')
             - if can_edit_issuable
               = link_to _('Edit'), '#', class: 'js-sidebar-dropdown-toggle edit-link float-right'
@@ -109,9 +109,9 @@
             - selected_labels.each do |label|
               = hidden_field_tag "#{issuable.to_ability_name}[label_names][]", label.id, id: nil
             .dropdown
-              %button.dropdown-menu-toggle.js-label-select.js-multiselect.js-label-sidebar-dropdown{ type: "button", data: {toggle: "dropdown", default_label: "Labels", field_name: "#{issuable.to_ability_name}[label_names][]", ability_name: issuable.to_ability_name, show_no: "true", show_any: "true", namespace_path: @project.try(:namespace).try(:full_path), project_path: @project.try(:path), issue_update: issuable_json_path(issuable), labels: (labels_filter_path(false) if @project), display: 'static' } }
+              %button.dropdown-menu-toggle.js-label-select.js-multiselect.js-label-sidebar-dropdown{ type: "button", data: {toggle: "dropdown", default_label: "标签", field_name: "#{issuable.to_ability_name}[label_names][]", ability_name: issuable.to_ability_name, show_no: "true", show_any: "true", namespace_path: @project.try(:namespace).try(:full_path), project_path: @project.try(:path), issue_update: issuable_json_path(issuable), labels: (labels_filter_path(false) if @project), display: 'static' } }
                 %span.dropdown-toggle-text{ class: ("is-default" if selected_labels.empty?) }
-                  = multi_label_name(selected_labels, "Labels")
+                  = multi_label_name(selected_labels, "标签")
                 = icon('chevron-down', 'aria-hidden': 'true')
               .dropdown-menu.dropdown-select.dropdown-menu-paging.dropdown-menu-labels.dropdown-menu-selectable
                 = render partial: "shared/issuable/label_page_default"

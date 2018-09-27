@@ -6,21 +6,21 @@ module ConversationalDevelopmentIndex
       [
         Card.new(
           metric: subject,
-          title: 'Issues',
+          title: '工单',
           description: 'created per active user',
           feature: 'issues',
           blog: 'https://www2.deloitte.com/content/dam/Deloitte/se/Documents/technology-media-telecommunications/deloitte-digital-collaboration.pdf'
         ),
         Card.new(
           metric: subject,
-          title: 'Comments',
+          title: '回复',
           description: 'created per active user',
           feature: 'notes',
           blog: 'http://conversationaldevelopment.com/why/'
         ),
         Card.new(
           metric: subject,
-          title: 'Milestones',
+          title: '里程碑',
           description: 'created per active user',
           feature: 'milestones',
           blog: 'http://conversationaldevelopment.com/shorten-cycle/',
@@ -28,7 +28,7 @@ module ConversationalDevelopmentIndex
         ),
         Card.new(
           metric: subject,
-          title: 'Boards',
+          title: '看板',
           description: 'created per active user',
           feature: 'boards',
           blog: 'http://jpattonassociates.com/user-story-mapping/',
@@ -36,7 +36,7 @@ module ConversationalDevelopmentIndex
         ),
         Card.new(
           metric: subject,
-          title: 'Merge Requests',
+          title: '合并请求',
           description: 'per active user',
           feature: 'merge_requests',
           blog: 'https://8thlight.com/blog/uncle-bob/2013/02/01/The-Humble-Craftsman.html',
@@ -44,7 +44,7 @@ module ConversationalDevelopmentIndex
         ),
         Card.new(
           metric: subject,
-          title: 'Pipelines',
+          title: '管道',
           description: 'created per active user',
           feature: 'ci_pipelines',
           blog: 'https://martinfowler.com/bliki/ContinuousDelivery.html',
@@ -52,7 +52,7 @@ module ConversationalDevelopmentIndex
         ),
         Card.new(
           metric: subject,
-          title: 'Environments',
+          title: '环境',
           description: 'created per active user',
           feature: 'environments',
           blog: 'https://about.gitlab.com/2016/08/26/ci-deployment-and-environments/',
@@ -60,14 +60,14 @@ module ConversationalDevelopmentIndex
         ),
         Card.new(
           metric: subject,
-          title: 'Deployments',
+          title: '部署',
           description: 'created per active user',
           feature: 'deployments',
           blog: 'https://puppet.com/blog/continuous-delivery-vs-continuous-deployment-what-s-diff'
         ),
         Card.new(
           metric: subject,
-          title: 'Monitoring',
+          title: '监控',
           description: 'fraction of all projects',
           feature: 'projects_prometheus_active',
           blog: 'https://prometheus.io/docs/introduction/overview/',
@@ -75,7 +75,7 @@ module ConversationalDevelopmentIndex
         ),
         Card.new(
           metric: subject,
-          title: 'Service Desk',
+          title: '服务台',
           description: 'issues created per active user',
           feature: 'service_desk_issues',
           blog: 'http://blogs.forrester.com/kate_leggett/17-01-30-top_trends_for_customer_service_in_2017_operations_become_smarter_and_more_strategic',

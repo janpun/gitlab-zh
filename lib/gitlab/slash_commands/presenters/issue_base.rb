@@ -7,7 +7,7 @@ module Gitlab
         end
 
         def status_text(issuable)
-          issuable.open? ? 'Open' : 'Closed'
+          issuable.open? ? '开启' : '关闭'
         end
 
         def project
@@ -21,17 +21,17 @@ module Gitlab
         def fields
           [
             {
-              title: "Assignee",
+              title: "指派",
               value: resource.assignees.any? ? resource.assignees.first.name : "_None_",
               short: true
             },
             {
-              title: "Milestone",
+              title: "里程碑",
               value: resource.milestone ? resource.milestone.title : "_None_",
               short: true
             },
             {
-              title: "Labels",
+              title: "标签",
               value: resource.labels.any? ? resource.label_names.join(', ') : "_None_",
               short: true
             }

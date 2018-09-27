@@ -263,23 +263,23 @@ class Event < ActiveRecord::Base
     if push?
       push_action_name
     elsif closed?
-      "closed"
+      "关闭"
     elsif merged?
-      "accepted"
+      "同意"
     elsif joined?
-      'joined'
+      '加入'
     elsif left?
       'left'
     elsif expired?
-      'removed due to membership expiration from'
+      '因为到期移除成员'
     elsif destroyed?
-      'destroyed'
+      '销毁'
     elsif commented?
-      "commented on"
+      "回复"
     elsif created_project?
       created_project_action_name
     else
-      "opened"
+      "打开"
     end
   end
 
@@ -374,17 +374,17 @@ class Event < ActiveRecord::Base
     if new_ref?
       "pushed new"
     elsif rm_ref?
-      "deleted"
+      "删除"
     else
-      "pushed to"
+      "推送"
     end
   end
 
   def created_project_action_name
     if project.external_import?
-      "imported"
+      "导入"
     else
-      "created"
+      "创建"
     end
   end
 

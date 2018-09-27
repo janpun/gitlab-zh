@@ -22,8 +22,8 @@
 
   - if dashboard_nav_link?(:milestones)
     = nav_link(controller: 'dashboard/milestones', html_options: { class: "d-none d-lg-block d-xl-block" }) do
-      = link_to dashboard_milestones_path, class: 'dashboard-shortcuts-milestones', title: _('Milestones') do
-        = _('Milestones')
+      = link_to dashboard_milestones_path, class: 'dashboard-shortcuts-milestones', title: _('里程碑') do
+        = _('里程碑')
 
   - if dashboard_nav_link?(:snippets)
     = nav_link(controller: 'dashboard/snippets', html_options: { class: "d-none d-lg-block d-xl-block" }) do
@@ -44,8 +44,8 @@
 
           - if dashboard_nav_link?(:milestones)
             = nav_link(controller: 'dashboard/milestones') do
-              = link_to dashboard_milestones_path, class: 'dashboard-shortcuts-milestones', title: _('Milestones') do
-                = _('Milestones')
+              = link_to dashboard_milestones_path, class: 'dashboard-shortcuts-milestones', title: _('里程碑') do
+                = _('里程碑')
 
           - if dashboard_nav_link?(:snippets)
             = nav_link(controller: 'dashboard/snippets') do
