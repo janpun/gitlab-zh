@@ -285,8 +285,8 @@ class MergeRequest < ActiveRecord::Base
   # Returns a Hash of attributes to be used for Twitter card metadata
   def card_attributes
     {
-      'Author'   => author.try(:name),
-      'Assignee' => assignee.try(:name)
+      '作者'   => author.try(:name),
+      '指派' => assignee.try(:name)
     }
   end
 

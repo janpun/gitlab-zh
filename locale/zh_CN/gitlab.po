@@ -6756,7 +6756,7 @@ msgid "Used by members to sign in to your group in GitLab"
 msgstr "供成员登录您的GitLab群组"
 
 msgid "User Settings"
-msgstr ""
+msgstr "个人设置"
 
 msgid "User and IP Rate Limits"
 msgstr "用户和IP频率限制"

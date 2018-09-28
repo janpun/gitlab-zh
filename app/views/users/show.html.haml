@@ -21,7 +21,7 @@
             = icon('exclamation-circle')
         - else
           = link_to new_abuse_report_path(user_id: @user.id, ref_url: request.referrer), class: 'btn',
-            title: 'Report abuse', data: { toggle: 'tooltip', placement: 'bottom', container: 'body' } do
+            title: '报告滥用', data: { toggle: 'tooltip', placement: 'bottom', container: 'body' } do
             = icon('exclamation-circle')
       - if can?(current_user, :read_user_profile, @user)
         = link_to user_path(@user, rss_url_options), class: 'btn btn-default has-tooltip', title: 'Subscribe', 'aria-label': 'Subscribe' do

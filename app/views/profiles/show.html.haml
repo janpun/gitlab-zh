@@ -7,16 +7,16 @@
   .row
     .col-lg-4.profile-settings-sidebar
       %h4.prepend-top-0
-        Public Avatar
+        公开头像
       %p
         - if @user.avatar?
           You can change your avatar here
           - if gravatar_enabled?
             or remove the current avatar to revert to #{link_to Gitlab.config.gravatar.host, 'https://' + Gitlab.config.gravatar.host}
         - else
-          You can upload an avatar here
+          你可以在这里上传头像
           - if gravatar_enabled?
-            or change it at #{link_to Gitlab.config.gravatar.host, 'https://' + Gitlab.config.gravatar.host}
+            或者在Gravatar上修改 #{link_to Gitlab.config.gravatar.host, 'https://' + Gitlab.config.gravatar.host}
     .col-lg-8
       .clearfix.avatar-image.append-bottom-default
         = link_to avatar_icon_for_user(@user, 400), target: '_blank', rel: 'noopener noreferrer' do
@@ -34,8 +34,8 @@
   %hr
   .row
     .col-lg-4.profile-settings-sidebar
-      %h4.prepend-top-0= s_("User|Current status")
-      %p= s_("Profiles|This emoji and message will appear on your profile and throughout the interface.")
+      %h4.prepend-top-0= s_("User|当前状态")
+      %p= s_("Profiles|这个emoji表情和消息将显示在您的个人资料和整个界面中。")
     .col-lg-8
       = f.fields_for :status, @user.status do |status_form|
         - emoji_button = button_tag type: :button,
@@ -57,18 +57,18 @@
         = status_form.text_field :message,
           id: 'js-status-message-field',
           class: 'form-control input-lg',
-          label: s_("Profiles|Your status"),
+          label: s_("Profiles|我的状态"),
           prepend: emoji_button,
           append: reset_message_button,
-          placeholder: s_("Profiles|What's your status?")
+          placeholder: s_("Profiles|你现在是什么状态？")
 
   %hr
   .row
     .col-lg-4.profile-settings-sidebar
       %h4.prepend-top-0
-        Main settings
+        设置
       %p
-        This information will appear on your profile.
+        此信息将显示在您的个人资料中。
         - if current_user.ldap_user?
           Some options are unavailable for LDAP accounts
     .col-lg-8
@@ -77,7 +77,7 @@
           = f.text_field :name, required: true, readonly: true, wrapper: { class: 'col-md-9' },
           help: "Your name was automatically set based on your #{ attribute_provider_label(:name) } account, so people you know can recognize you."
         - else
-          = f.text_field :name, required: true, wrapper: { class: 'col-md-9' }, help: "Enter your name, so people you know can recognize you."
+          = f.text_field :name, required: true, wrapper: { class: 'col-md-9' }, help: "输入您的姓名，这样您认识的人就能认出你。"
         = f.text_field :id, readonly: true, label: 'User ID', wrapper: { class: 'col-md-3' }
 
       - if @user.read_only_attribute?(:email)
@@ -86,29 +86,29 @@
         = f.text_field :email, required: true, value: (@user.email unless @user.temp_oauth_email?),
           help: user_email_help_text(@user)
       = f.select :public_email, options_for_select(@user.all_emails, selected: @user.public_email),
-        { help: 'This email will be displayed on your public profile.', include_blank: 'Do not show on profile' },
+        { help: '此电子邮件将显示在您的公开个人资料中。', include_blank: 'Do not show on profile' },
         control_class: 'select2'
       = f.select :preferred_language, Gitlab::I18n::AVAILABLE_LANGUAGES.map { |value, label| [label, value] },
-        { help: 'This feature is experimental and translations are not complete yet.' },
+        { help: '此功能是实验性的，翻译尚未完成。' },
         control_class: 'select2'
       = f.text_field :skype
       = f.text_field :linkedin
       = f.text_field :twitter
-      = f.text_field :website_url, label: 'Website'
+      = f.text_field :website_url, label: '个人网站'
       - if @user.read_only_attribute?(:location)
         = f.text_field :location, readonly: true, help: "Your location was automatically set based on your #{ attribute_provider_label(:location) } account."
       - else
         = f.text_field :location
       = f.text_field :organization
-      = f.text_area :bio, rows: 4, maxlength: 250, help: 'Tell us about yourself in fewer than 250 characters.'
+      = f.text_area :bio, rows: 4, maxlength: 250, help: '介绍下你自己，不超过250个字符。'
       %hr
-      %h5 Private profile
+      %h5 资料保密
       - private_profile_label = capture do
-        Don't display activity-related personal information on your profile
+        不要在您的个人资料中显示与个人信息相关的动态
         = link_to icon('question-circle'), help_page_path('user/profile/index.md', anchor: 'private-profile')
       = f.check_box :private_profile, label: private_profile_label
       .prepend-top-default.append-bottom-default
-        = f.submit 'Update profile settings', class: 'btn btn-success'
+        = f.submit '更新', class: 'btn btn-success'
         = link_to '取消', user_path(current_user), class: 'btn btn-cancel'
 
 .modal.modal-profile-crop

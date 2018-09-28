@@ -64,7 +64,7 @@
         class="note-textarea js-gfm-input js-autosize markdown-area"
         data-supports-quick-actions="false"
         aria-label="Description"
-        placeholder="Write a comment or drag your files here…"
+        placeholder="回复或者拖拽文件到此处"
         @keydown.meta.enter="updateIssuable"
         @keydown.ctrl.enter="updateIssuable">
       </textarea>

@@ -82,7 +82,7 @@
             .prepend-left-5.clearable-input.member-form-control
               = f.text_field :expires_at,
                 class: 'form-control js-access-expiration-date js-member-update-control',
-                placeholder: 'Expiration date',
+                placeholder: '过期时间',
                 id: "member_expires_at_#{member.id}",
                 data: { el_id: dom_id(member) }
               %i.clear-icon.js-clear-input

@@ -85,42 +85,42 @@
       >
         <toolbar-button
           tag="**"
-          button-title="Add bold text"
+          button-title="加粗"
           icon="bold"
         />
         <toolbar-button
           tag="*"
-          button-title="Add italic text"
+          button-title="斜体"
           icon="italic"
         />
         <toolbar-button
           :prepend="true"
           tag="> "
-          button-title="Insert a quote"
+          button-title="引用"
           icon="quote"
         />
         <toolbar-button
           tag="`"
           tag-block="```"
-          button-title="Insert code"
+          button-title="插入代码"
           icon="code"
         />
         <toolbar-button
           :prepend="true"
           tag="* "
-          button-title="Add a bullet list"
+          button-title="无序列表"
           icon="list-bulleted"
         />
         <toolbar-button
           :prepend="true"
           tag="1. "
-          button-title="Add a numbered list"
+          button-title="有序列表"
           icon="list-numbered"
         />
         <toolbar-button
           :prepend="true"
           tag="* [ ] "
-          button-title="Add a task list"
+          button-title="清单"
           icon="task-done"
         />
         <button
@@ -129,7 +129,7 @@
           class="toolbar-btn toolbar-fullscreen-btn js-zen-enter"
           data-container="body"
           tabindex="-1"
-          title="Go full screen"
+          title="全屏"
           type="button"
         >
           <icon

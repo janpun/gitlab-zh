@@ -7,11 +7,11 @@
   %section.settings.general-settings.no-animate#js-general-project-settings{ class: ('expanded' if expanded) }
     .settings-header
       %h4
-        General project
+        通用
       %button.btn.js-settings-toggle{ type: 'button' }
         = expanded ? 'Collapse' : 'Expand'
       %p
-        Update your project name, description, avatar, and other general settings.
+        更新项目名称，说明，头像和其他常规设置。
     .settings-content
       .project-edit-errors
       = form_for [@project.namespace.becomes(Namespace), @project], remote: true, html: { multipart: true, class: "edit-project" }, authenticity_token: true do |f|

@@ -3,12 +3,12 @@
 .row.prepend-top-default
   .col-lg-12
     %h4
-      Project members
+      项目成员
     - if can?(current_user, :admin_project_member, @project)
       %p
-        You can add a new member to
+        你可以对
         %strong= @project.name
-        or share it with another group.
+        添加成员或者共享到某个群组
     - else
       %p
         Members can be added by project
@@ -26,9 +26,9 @@
 
         .tab-content.gitlab-tab-content
           .tab-pane.active{ id: 'add-member-pane', role: 'tabpanel' }
-            = render 'projects/project_members/new_project_member', tab_title: 'Add member'
+            = render 'projects/project_members/new_project_member', tab_title: '添加成员'
           .tab-pane{ id: 'share-with-group-pane', role: 'tabpanel' }
-            = render 'projects/project_members/new_shared_group', tab_title: 'Share with group'
+            = render 'projects/project_members/new_shared_group', tab_title: '共享到群组'
 
         = render 'shared/members/requests', membership_source: @project, requesters: @requesters
         .clearfix

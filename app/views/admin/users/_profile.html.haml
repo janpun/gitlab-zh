@@ -23,9 +23,9 @@
         %strong= link_to user.twitter, "https://twitter.com/#{user.twitter}"
     - unless user.website_url.blank?
       %li
-        %span.light Website:
+        %span.light 个人网站:
         %strong= link_to user.short_website_url, user.full_website_url
     - unless user.location.blank?
       %li
-        %span.light Location:
+        %span.light 地址:
         %strong= user.location

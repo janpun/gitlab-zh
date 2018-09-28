@@ -6,7 +6,7 @@ module UsersHelper
   end
 
   def user_email_help_text(user)
-    return 'We also use email for avatar detection if no avatar is uploaded.' unless user.unconfirmed_email.present?
+    return '如果没有上传头像，我们还使用Gravatar电子邮件获取头像。' unless user.unconfirmed_email.present?
 
     confirmation_link = link_to 'Resend confirmation e-mail', user_confirmation_path(user: { email: @user.unconfirmed_email }), method: :post
 

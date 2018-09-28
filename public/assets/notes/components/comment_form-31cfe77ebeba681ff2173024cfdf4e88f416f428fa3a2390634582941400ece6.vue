@@ -362,7 +362,7 @@ Please check your network connection and try again.`;
 js-gfm-input js-autosize markdown-area js-vue-textarea"
                   data-supports-quick-actions="true"
                   aria-label="Description"
-                  placeholder="Write a comment or drag your files here…"
+                  placeholder="回复或者拖拽文件到此处"
                   @keydown.up="editCurrentUserLastNote()"
                   @keydown.meta.enter="handleSave()"
                   @keydown.ctrl.enter="handleSave()">

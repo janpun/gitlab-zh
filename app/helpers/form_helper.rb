@@ -31,7 +31,7 @@ module FormHelper
         field_name: 'issue[assignee_ids][]',
         default_label: 'Unassigned',
         'max-select': 1,
-        'dropdown-header': 'Assignee',
+        'dropdown-header': '指派',
         multi_select: true,
         'input-meta': 'name',
         'always-show-selectbox': true,

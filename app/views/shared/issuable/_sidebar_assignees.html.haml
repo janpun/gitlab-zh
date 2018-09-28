@@ -1,7 +1,7 @@
 - if issuable.is_a?(Issue)
   #js-vue-sidebar-assignees{ data: { field: "#{issuable.to_ability_name}[assignee_ids]", signed_in: signed_in } }
     .title.hide-collapsed
-      = _('Assignee')
+      = _('指派')
       = icon('spinner spin')
 - else
   .sidebar-collapsed-icon.sidebar-collapsed-user{ data: { toggle: "tooltip", placement: "left", container: "body", boundary: 'viewport' }, title: sidebar_assignee_tooltip_label(issuable) }
@@ -10,7 +10,7 @@
     - else
       = icon('user', 'aria-hidden': 'true')
   .title.hide-collapsed
-    = _('Assignee')
+    = _('指派')
     = icon('spinner spin', class: 'hidden block-loading', 'aria-hidden': 'true')
     - if can_edit_issuable
       = link_to _('Edit'), '#', class: 'js-sidebar-dropdown-toggle edit-link float-right'

@@ -24,7 +24,7 @@ export default {
   computed: {
     assigneeTitle() {
       const assignees = this.numberOfAssignees;
-      return assignees > 1 ? `${assignees} Assignees` : 'Assignee';
+      return assignees > 1 ? `${assignees} Assignees` : '指派';
     },
   },
 };

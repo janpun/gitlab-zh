@@ -17,7 +17,7 @@ module IssuablesHelper
     if issuable.assignee
       issuable.assignee.name
     else
-      issuable.allows_multiple_assignees? ? _('Assignee(s)') : _('Assignee')
+      issuable.allows_multiple_assignees? ? _('Assignee(s)') : _('指派')
     end
   end
 

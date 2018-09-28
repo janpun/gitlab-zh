@@ -26,4 +26,4 @@
   - if @merge_request.present?
     = link_to _("View open merge request"), project_merge_request_path(@project, @merge_request), class: 'prepend-left-10 btn'
   - elsif create_mr_button?
-    = link_to _("Create merge request"), create_mr_path, class: 'prepend-left-10 btn'
+    = link_to _("创建合并请求"), create_mr_path, class: 'prepend-left-10 btn'
