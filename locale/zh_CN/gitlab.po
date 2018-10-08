@@ -6801,7 +6801,7 @@ msgid "View issue"
 msgstr "查看工单"
 
 msgid "View it on GitLab"
-msgstr ""
+msgstr "打开Task查看"
 
 msgid "View jobs"
 msgstr "查看作业"
@@ -7158,7 +7158,7 @@ msgid "You're receiving this email because %{reason}."
 msgstr ""
 
 msgid "You're receiving this email because of your account on %{host}."
-msgstr ""
+msgstr "您收到这封电子邮件是因为你在 %{host} 拥有帐户。"
 
 msgid "You're receiving this email because of your account on %{host}. %{manage_notifications_link} &middot; %{help_link}"
 msgstr "您收到这封电子邮件是因为你在 %{host} 拥有帐户。 %{manage_notifications_link} &middot; %{help_link}"

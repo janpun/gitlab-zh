@@ -20,13 +20,13 @@
           %br
           -# Don't link the host in the line below, one link in the email is easier to quickly click than two.
           = _("You're receiving this email because %{reason}.") % { reason: notification_reason_text(@reason) }
-          If you'd like to receive fewer emails, you can
+          如果不想再收到类似邮件，可以
           - if @labels_url
             adjust your #{link_to 'label subscriptions', @labels_url}.
           - else
             - if @unsubscribe_url
               = link_to "unsubscribe", @unsubscribe_url
-              from this thread or
-            adjust your notification settings.
+              取消订阅当前主题
+            调整你的通知设置
 
           = email_action @target_url
